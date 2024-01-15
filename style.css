@@ -168,6 +168,10 @@ header .hero_section {
     margin-bottom: 24px;
 }
 
+.popular_destination ul li {
+    margin-bottom: 14px;
+}
+
 /* destination choice section */
 .destination_choice {
     text-align: center;
@@ -181,7 +185,7 @@ header .hero_section {
 
 .destination_choice p {
     width: 642px;
-    margin: 0px auto;
+    margin: 0px auto 48px;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
