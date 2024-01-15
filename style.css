@@ -8,7 +8,7 @@
     font-family: "Mulish", sans-serif;
 }
 
-.button_color {
+button {
     color: #FFF;
     border-radius: 8px;
     background-color: #FF5400;
@@ -102,7 +102,7 @@ header .hero_section {
 }
 
 .hero_section .search_section {
-    width: 700px;
+    width: 800px;
     border-radius: 8px;
     background: #ffffff4d;
     padding: 16px;
@@ -119,8 +119,31 @@ header .hero_section {
     border-radius: 8px;
     background-color: #FFF;
     border: none;
+    padding-left: 16px;
 }
 
+.hero_section .search_section button {
+    width: 174px;
+    height: 52px;
+    border: none;
+    display: flex;
+    padding: 16px 0px 16px 36px ;
+    align-items: center;
+    gap: 5px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.hero_section .search_section input ::placeholder,
+.hero_section .search_section select ::placeholder {
+    
+    color: #13131880;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
 
 
 
