@@ -174,6 +174,8 @@ header .hero_section {
 
 /* destination choice section */
 .destination_choice {
+    width: 100%;
+    margin: 0px auto 100px;
     text-align: center;
 }
 
@@ -190,6 +192,166 @@ header .hero_section {
     font-weight: 400;
     line-height: 26px;
 }
+
+.locations .maldives_indonesia p,
+.locations .row_2 p {
+    position: relative;
+    top: 130px;
+    right: 60px;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.locations .maldives_indonesia {
+    width: 80%;
+    margin: 0px auto 24px;
+    display: flex;
+    gap: 24px;
+    /* margin-bottom: 24px; */
+    /* padding-left: 135px; */
+}
+
+.locations .maldives_indonesia .maldives,
+.locations .maldives_indonesia .indonesia {
+    width: 500px;
+    height: 300px;
+    flex-shrink: 0;
+    border-radius: 16px;
+}
+
+.locations .maldives_indonesia .maldives {
+    background: linear-gradient(0deg, #13131833, #13131833), url("./Images/Rectangle 5.png");
+}
+
+.locations .maldives_indonesia .indonesia {
+    background: linear-gradient(0deg, #13131833, #13131833), url("./Images/Rectangle 8.png");
+}
+
+.locations .row_2 .srilanka {
+    width: 344px;
+    background: linear-gradient(0deg, #13131833, #13131833), url("./Images/Rectangle\ 6.png");
+}
+
+.locations .row_2 .north {
+    width: 444px;
+    background: linear-gradient(0deg, #13131833, #13131833), url("./Images/Rectangle\ 7.png");
+}
+
+.locations .row_2 .kashmir {
+    width: 244px;
+    background: linear-gradient(0deg, #13131833, #13131833), url("./Images/Rectangle\ 9.png");
+}
+
+.locations .row_2 {
+    width: 100%;
+    margin: 0px auto 24px;
+    display: flex;
+    gap: 24px;
+}
+
+.locations .row_2 .srilanka,
+.locations .row_2 .north,
+.locations .row_2 .kashmir {
+    height: 250px;
+    flex-shrink: 0;
+    border-radius: 16px;
+}
+
+.locations .row_2 p {
+    top: 115px;
+    right: 100px;
+}
+
+.locations .row_2 .srilanka p {
+    right: 160px;
+}
+
+.locations .row_2 .kashmir p {
+    right: 200px;
+}
+
+
+/* why us section styles */
+.why_us h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.why_us p {
+    width: 643px;
+    margin: 0px auto 48px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.why_us_card {
+    width: 80%;
+    margin: 0px auto 100px;
+    display: grid;
+    grid-template-areas:
+        "hotel hotel service service"
+        ".     price price   ."
+    ;
+    column-gap: 24px;
+    row-gap: 24px;
+}
+
+.why_us_card div {
+    width: 100%;
+    height: 284px;
+    border-radius: 16px;
+}
+
+.why_us_card div img {
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    padding: 32px 32px 0px 32px;
+    margin-bottom: 15px;
+}
+
+.why_us_card div h2 {
+    text-align: left;
+    padding-left: 32px;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+
+.why_us_card div p {
+    width: 80%;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 32px;
+}
+
+.why_us_card .hotel {
+    grid-area: hotel;
+    border: 1px solid #fbb56333;
+    background-color: #fbb5630d;
+    gap: 24px;
+}
+
+.why_us_card .service {
+    grid-area: service;
+    border: 1px solid #29cef633;
+    background-color: #29cef60d;
+}
+
+.why_us_card .price {
+    grid-area: price;
+    border: 1px solid #e9444433;
+    background: #e944440d;
+}
+
+
 
 
 
@@ -253,7 +415,7 @@ header .hero_section {
         flex-direction: column;
     }
 
-    .popular_destination h2{
+    .popular_destination h2 {
         font-size: 20px;
     }
 
