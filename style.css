@@ -71,6 +71,55 @@ nav .navbar ul li a {
     font-weight: 400;
 }
 
+/* hero section styles */
+header .hero_section {
+    background: linear-gradient(180deg, #131318cc, #13131800), url("./Images/Group\ 13\ \(1\)\ \(1\).png");
+    width: 82%;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    margin: 0px auto 100px;
+    text-align: center;
+}
+
+.hero_section h2,
+.hero_section p {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    margin-bottom: 24px;
+    padding-top: 106px;
+}
+
+.hero_section p {
+    width: 676px;
+    margin: 0px auto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 48px;
+    padding-top: 0px;
+}
+
+.hero_section .search_section {
+    width: 700px;
+    border-radius: 8px;
+    background: #ffffff4d;
+    padding: 16px;
+    display: flex;
+    margin: 0px auto;
+    justify-content: space-between;
+}
+
+.hero_section .search_section input,
+.hero_section .search_section select {
+    width: 174px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background-color: #FFF;
+    border: none;
+}
 
 
 
@@ -90,7 +139,7 @@ nav .navbar ul li a {
 
     header nav .logo h2 {
         font-size: 21.543px;
-    }    
+    }
 
     nav .navbar ul {
         flex-direction: column;
