@@ -9,9 +9,16 @@
 }
 
 button {
+    width: 174px;
+    height: 52px;
+    border: none;
     color: #FFF;
     border-radius: 8px;
     background-color: #FF5400;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
 }
 
 .title_color {
@@ -124,17 +131,10 @@ header .hero_section {
 }
 
 .hero_section .search_section button {
-    width: 174px;
-    height: 52px;
-    border: none;
     display: flex;
     padding: 16px 0px 16px 36px;
     align-items: center;
     gap: 5px;
-    text-align: center;
-    font-size: 16px;
-    font-weight: 400;
-    cursor: pointer;
 }
 
 .hero_section .search_section input ::placeholder,
@@ -144,6 +144,47 @@ header .hero_section {
     text-align: center;
     font-size: 16px;
     font-weight: 400;
+}
+
+/* popular destination styles */
+.popular_destination {
+    width: 80%;
+    margin: 0px auto 100px;
+    display: flex;
+}
+
+.popular_destination h2 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.popular_destination p,
+.popular_destination ul li {
+    width: 90%;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+/* destination choice section */
+.destination_choice {
+    text-align: center;
+}
+
+.destination_choice h2 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.destination_choice p {
+    width: 642px;
+    margin: 0px auto;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
 }
 
 
@@ -196,11 +237,11 @@ header .hero_section {
     }
 
     .hero_section .search_section select,
-    .hero_section .search_section button{
+    .hero_section .search_section button {
         width: 95%;
     }
 
-    .hero_section .search_section button{
+    .hero_section .search_section button {
         padding-left: 76px;
     }
 }
