@@ -432,4 +432,38 @@ header .hero_section {
         width: 100%;
         margin: 0px auto;
     }
+
+    .why_us h2 {
+        font-size: 20px;
+    }
+
+    .why_us p {
+        width: 90%;
+        font-size: 14px;
+    }
+
+    .why_us_card {
+        width: 80%;
+        margin: 0px auto 100px;
+        display: grid;
+        grid-template-areas:
+            "hotel"
+            "service"
+            "price"
+        ;
+    }
+
+    .why_us_card div img {
+        width: 48px;
+        height: 48px;
+        margin-bottom: 10px;
+    }
+
+    .why_us_card div h2 {
+        font-size: 20px;
+    }
+    
+    .why_us_card div p{
+        font-size: 14px;
+    }
 }
