@@ -1,0 +1,99 @@
+/* insert google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+/* full body styles */
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Mulish", sans-serif;
+}
+
+.button_color {
+    color: #FFF;
+    border-radius: 8px;
+    background-color: #FF5400;
+}
+
+.title_color {
+    color: #131318;
+}
+
+.description-color {
+    color: #131318b3;
+}
+
+.company_color {
+    color: #FF5400;
+}
+
+/* nav section */
+nav {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav .logo {
+    display: flex;
+    gap: 5px;
+}
+
+header nav .logo img {
+    width: 48px;
+    height: auto;
+}
+
+header nav .logo h2 {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+header nav .logo h2 span {
+    color: #FF5400;
+}
+
+nav .navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+nav .navbar ul li {
+    padding-left: 45px;
+}
+
+nav .navbar ul li a {
+    text-decoration: none;
+    color: #424247;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+
+
+
+/* styles for small devices */
+@media screen and (max-width: 600px) {
+    nav {
+        width: 80%;
+        margin: 50px auto;
+        flex-direction: column;
+    }
+
+    header nav .logo img {
+        width: 28px;
+        margin-bottom: 10px;
+    }
+
+    header nav .logo h2 {
+        font-size: 21.543px;
+    }    
+
+    nav .navbar ul {
+        flex-direction: column;
+        text-align: center;
+    }
+}
