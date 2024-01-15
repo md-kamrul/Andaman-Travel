@@ -74,6 +74,7 @@ nav .navbar ul li a {
 /* hero section styles */
 header .hero_section {
     background: linear-gradient(180deg, #131318cc, #13131800), url("./Images/Group\ 13\ \(1\)\ \(1\).png");
+    background-size: cover;
     width: 82%;
     height: 500px;
     flex-shrink: 0;
@@ -127,7 +128,7 @@ header .hero_section {
     height: 52px;
     border: none;
     display: flex;
-    padding: 16px 0px 16px 36px ;
+    padding: 16px 0px 16px 36px;
     align-items: center;
     gap: 5px;
     text-align: center;
@@ -138,7 +139,7 @@ header .hero_section {
 
 .hero_section .search_section input ::placeholder,
 .hero_section .search_section select ::placeholder {
-    
+
     color: #13131880;
     text-align: center;
     font-size: 16px;
@@ -167,5 +168,39 @@ header .hero_section {
     nav .navbar ul {
         flex-direction: column;
         text-align: center;
+    }
+
+    .hero_section h2 {
+        font-size: 22px;
+        padding-top: 32px;
+        margin-bottom: 8px;
+    }
+
+    .hero_section p {
+        width: 304px;
+        margin: 0px auto 8px;
+        font-size: 14px;
+    }
+
+    .hero_section .search_section {
+        width: 287px;
+        margin: 0px auto;
+        flex-direction: column;
+    }
+
+    .hero_section .search_section input,
+    .hero_section .search_section select,
+    .hero_section .search_section button {
+        width: 90%;
+        margin-bottom: 16px;
+    }
+
+    .hero_section .search_section select,
+    .hero_section .search_section button{
+        width: 95%;
+    }
+
+    .hero_section .search_section button{
+        padding-left: 76px;
     }
 }
