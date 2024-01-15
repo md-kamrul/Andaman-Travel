@@ -248,4 +248,26 @@ header .hero_section {
     .hero_section .search_section button {
         padding-left: 76px;
     }
+
+    .popular_destination {
+        flex-direction: column;
+    }
+
+    .popular_destination h2{
+        font-size: 20px;
+    }
+
+    .popular_destination p,
+    .popular_destination ul li {
+        font-size: 14px;
+    }
+
+    .popular_destination button {
+        margin-bottom: 20px;
+    }
+
+    .popular_destination .popular_img img {
+        width: 100%;
+        margin: 0px auto;
+    }
 }
