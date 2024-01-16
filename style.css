@@ -351,6 +351,72 @@ header .hero_section {
     background: #e944440d;
 }
 
+/* Customer Testimonials section */
+.testimonial {
+    width: 80%;
+    margin: 0px auto 100px;
+    text-align: center;
+}
+
+.testimonial .testimonial_card{
+    display: grid;
+    grid-template-areas: 
+    "card_1 . card_2"
+    ".    card_3 card_3"
+    ;
+}
+
+.testimonial h2 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.testimonial h2 + p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.testimonial .review_card{
+    width: 100%;
+    margin: 10px auto 10px;
+}
+
+.testimonial .review_card img{
+    width: 40%;
+    border-radius: 10px;
+}
+
+.testimonial .customer_name{
+    font-size: 18px;
+}
+
+.testimonial .customer_address{
+    font-size: 16px;
+}
+
+.testimonial .customer_review{
+    font-size: 21px;
+}
+
+.card_1{
+    grid-area: card_1;
+}
+
+.card_2{
+    grid-area: card_2;
+}
+
+.card_3{
+    grid-area: card_3;
+    display: flex;
+}
+
+.card_3 .customer_review{
+    width: 1500%;
+}
+
 /* newsletter section styles */
 .newsletter {
     display: flex;
@@ -603,19 +669,19 @@ footer p:last-child {
         margin-bottom: 54px;
     }
 
-    .destination_choice .destination_img .srilanka{
+    .destination_choice .destination_img .srilanka {
         margin-bottom: 150px;
     }
 
-    .destination_choice .destination_img .north{
+    .destination_choice .destination_img .north {
         margin-bottom: 85px;
     }
 
-    .destination_choice .destination_img .kashmir{
+    .destination_choice .destination_img .kashmir {
         margin-bottom: 265px;
     }
 
-    .destination_choice .destination_img .bangladesh{
+    .destination_choice .destination_img .bangladesh {
         margin-bottom: 96px;
     }
 
