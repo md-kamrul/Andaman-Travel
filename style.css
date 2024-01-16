@@ -719,6 +719,42 @@ footer p:last-child {
         font-size: 14px;
     }
 
+    .testimonial .testimonial_card{
+        grid-template-areas: 
+        "card_1"
+        "card_2"
+        "card_3"
+        ;
+    }
+
+    .card_3{
+        flex-direction: column;
+    }
+
+    .card_3 .customer_review{
+        width: 100%;
+    }
+
+    .testimonial h2 {
+        font-size: 20px;
+    }
+
+    .testimonial h2 + p {
+        font-size: 14px;
+    }
+
+    .testimonial .customer_name{
+        font-size: 16px;
+    }
+
+    .testimonial .customer_address{
+        font-size: 14px;
+    }
+
+    .testimonial .customer_review{
+        font-size: 19px;
+    }
+
     .newsletter {
         flex-direction: column;
     }
