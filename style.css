@@ -197,8 +197,8 @@ header .hero_section {
 
 .destination_choice .destination_img {
     display: flex;
-    flex-wrap: wrap;
     gap: 24px;
+    flex-wrap: wrap;
 }
 
 .destination_choice .destination_img p {
@@ -206,54 +206,65 @@ header .hero_section {
     text-align: center;
     font-size: 28px;
     font-weight: 800;
+    position: relative;
+    bottom: 170px;
+}
+
+.destination_choice .destination_img .srilanka p,
+.destination_choice .destination_img .north p,
+.destination_choice .destination_img .kashmir p {
+    bottom: 145px;
 }
 
 .destination_choice .destination_img div {
     border-radius: 16px;
 }
 
+.destination_choice .destination_img div img {
+    width: 100%;
+}
+
 .destination_choice .destination_img .maldives {
-    width: 48%;
-    margin: 0px auto;
-    height: 300px;
-    background: linear-gradient(0deg, #13131833, #13131833), url("./Images/maldives.png");
+    width: 500px;
+    height: 242px;
+    background: linear-gradient(0deg, #13131833, #13131833);
+    margin-bottom: 15px;
 }
 
 .destination_choice .destination_img .indonesia {
-    width: 48%;
-    margin: 0px auto;
-    height: 300px;
-    background: linear-gradient(0deg, #13131833, #13131833), url("./Images/inonesia.png");
+    width: 500px;
+    height: 242px;
+    background: linear-gradient(0deg, #13131833, #13131833);
 }
 
 .destination_choice .destination_img .srilanka {
-    width: 374px;
-    height: 286px;
-    background: linear-gradient(0deg, #13131833, #13131833), url("./Images/srilanka.png");
+    width: 320px;
+    height: 242px;
+    background: linear-gradient(0deg, #13131833, #13131833);
 }
 
 .destination_choice .destination_img .north {
-    width: 474px;
-    height: 286px;
-    background: linear-gradient(0deg, #13131833, #13131833), url("./Images/north.png");
+    width: 415px;
+    height: 250px;
+    background: linear-gradient(0deg, #13131833, #13131833);
 }
 
 .destination_choice .destination_img .kashmir {
-    width: 274px;
-    height: 286px;
-    background: linear-gradient(0deg, #13131833, #13131833), url("./Images/kashmir.png");
+    width: 240px;
+    height: 248px;
+    background: linear-gradient(0deg, #13131833, #13131833);
 }
 
 .destination_choice .destination_img .bangladesh {
-    width: 473px;
-    height: 300px;
-    background: linear-gradient(0deg, #13131833, #13131833), url("./Images/bangladesh.png");
+    width: 415px;
+    height: 246px;
+    background: linear-gradient(0deg, #13131833, #13131833);
 }
 
 .destination_choice .destination_img .bandorban {
-    width: 673px;
-    height: 300px;
-    background: linear-gradient(0deg, #13131833, #13131833), url("./Images/bandarban.png");
+    width: 585px;
+    height: 242px;
+    background: linear-gradient(0deg, #13131833, #13131833);
 }
 
 
