@@ -347,6 +347,7 @@ header .hero_section {
 }
 
 .why_us_card .hotel {
+    height: auto;
     grid-area: hotel;
     border: 1px solid #fbb56333;
     background-color: #fbb5630d;
@@ -354,12 +355,14 @@ header .hero_section {
 }
 
 .why_us_card .service {
+    height: auto;
     grid-area: service;
     border: 1px solid #29cef633;
     background-color: #29cef60d;
 }
 
 .why_us_card .price {
+    height: auto;
     grid-area: price;
     border: 1px solid #e9444433;
     background: #e944440d;
@@ -471,7 +474,7 @@ hr {
 
 .newsletter .subscribe_box input {
     width: 72%;
-    margin: 0px 0px 0px 40px;
+    margin: 0px 0px 0px 10%;
     border-radius: 8px;
     background: #1313180d;
     padding: 16px 20px;
@@ -604,13 +607,13 @@ footer p:last-child {
     }
 
     .hero_section p {
-        width: 304px;
+        width: 90%;
         margin: 0px auto 8px;
         font-size: 14px;
     }
 
     .hero_section .search_section {
-        width: 287px;
+        width: 80%;
         margin: 0px auto;
         flex-direction: column;
     }
@@ -624,11 +627,11 @@ footer p:last-child {
 
     .hero_section .search_section select,
     .hero_section .search_section button {
-        width: 95%;
+        width: 98%;
     }
 
     .hero_section .search_section button {
-        padding-left: 76px;
+        padding-left: 20%;
     }
 
     .popular_destination {
