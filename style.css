@@ -207,7 +207,7 @@ header .hero_section {
     font-size: 28px;
     font-weight: 800;
     position: relative;
-    bottom: 170px;
+    bottom: 160px;
 }
 
 .destination_choice .destination_img .srilanka p,
@@ -672,8 +672,8 @@ footer p:last-child {
         transform: rotate(-19.628deg);
         font-size: 16px;
         padding-top: 10px;
-        bottom: 100px;
-        left: 150px;
+        bottom: 25%;
+        left: 40%;
     }
 
     .newsletter .img_box .discount h2 {
