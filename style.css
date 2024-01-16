@@ -560,4 +560,30 @@ hr {
     .why_us_card div p {
         font-size: 14px;
     }
+
+    .newsletter{
+        flex-direction: column;
+    }
+    .newsletter .subscribe_box{
+        width: 100%;
+        height: 420px;
+    }
+
+    .newsletter .img_box {
+        width: 100%;
+    }
+
+    .newsletter .img_box .discount {
+        width: 215px;
+        height: 55px;
+        transform: rotate(-19.628deg);
+        font-size: 16px;
+        padding-top: 10px;
+        bottom: 100px;
+        left: 150px;
+    }
+    
+    .newsletter .img_box .discount h2 {
+        font-size: 22px;
+    }
 }
