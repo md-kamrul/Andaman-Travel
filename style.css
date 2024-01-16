@@ -634,4 +634,21 @@ footer p:last-child {
     .newsletter .img_box .discount h2 {
         font-size: 22px;
     }
+
+    footer .logo {
+        width: 45%;
+    }
+
+    footer .logo h2 {
+        font-size: 22px;
+    }
+
+    footer .logo img {
+        width: 24px;
+        height: 24px;
+    }
+
+    footer p{
+        width: 90%;
+    }
 }
