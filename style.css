@@ -666,7 +666,7 @@ footer p:last-child {
 
     .destination_choice .destination_img {
         display: grid;
-        gap: 10px;
+        gap: 24px;
         grid-template-areas: 
         "maldives"
         "indonesia"
@@ -699,32 +699,26 @@ footer p:last-child {
 
     .destination_choice .destination_img .indonesia{
         grid-area: indonesia;
-        margin-bottom: 10px;
     }
 
     .destination_choice .destination_img .srilanka {
-        margin-bottom: 140px;
         grid-area: srilanka;
     }
 
     .destination_choice .destination_img .north {
-        margin-bottom: 55px;
         grid-area: north;
     }
 
     .destination_choice .destination_img .kashmir {
-        margin-bottom: 300px;
         grid-area: kashmir;
     }
 
     .destination_choice .destination_img .bangladesh {
-        margin-bottom: 70px;
         grid-area: bangladesh;
     }
 
     .destination_choice .destination_img .bandorban{
         grid-area: bandorban;
-        height: 240px;
     }
 
     .why_us h2 {
