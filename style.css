@@ -568,6 +568,57 @@ footer p:last-child {
         margin: 0px auto;
     }
 
+    .destination_choice {
+        width: 90%;
+    }
+
+    .destination_choice h2 {
+        font-size: 20px;
+    }
+
+    .destination_choice p {
+        font-size: 14px;
+    }
+
+    .destination_choice .destination_img p {
+        font-size: 20px;
+        bottom: 120px;
+    }
+
+    .destination_choice .destination_img {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 0px;
+    }
+
+    .destination_choice .destination_img .maldives,
+    .destination_choice .destination_img .indonesia,
+    .destination_choice .destination_img .srilanka,
+    .destination_choice .destination_img .north,
+    .destination_choice .destination_img .kashmir,
+    .destination_choice .destination_img .bangladesh,
+    .destination_choice .destination_img .bandorban {
+        width: 100%;
+        height: 176px;
+        margin-bottom: 54px;
+    }
+
+    .destination_choice .destination_img .srilanka{
+        margin-bottom: 150px;
+    }
+
+    .destination_choice .destination_img .north{
+        margin-bottom: 85px;
+    }
+
+    .destination_choice .destination_img .kashmir{
+        margin-bottom: 265px;
+    }
+
+    .destination_choice .destination_img .bangladesh{
+        margin-bottom: 96px;
+    }
+
     .why_us h2 {
         font-size: 20px;
     }
