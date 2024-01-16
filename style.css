@@ -1,6 +1,8 @@
 /* insert google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
 /* full body styles */
 * {
     margin: 0px;
@@ -42,22 +44,22 @@ nav {
     align-items: center;
 }
 
-header nav .logo {
+.logo {
     display: flex;
     gap: 5px;
 }
 
-header nav .logo img {
+.logo img {
     width: 48px;
     height: auto;
 }
 
-header nav .logo h2 {
+.logo h2 {
     font-size: 36px;
     font-weight: 800;
 }
 
-header nav .logo h2 span {
+.logo h2 span {
     color: #FF5400;
 }
 
@@ -448,6 +450,51 @@ hr {
     font-weight: 800;
 }
 
+/* footer section styles */
+footer {
+    background-color: #1313180D;
+    text-align: center;
+}
+
+footer .logo {
+    padding-top: 110px;
+    width: 30%;
+    margin: 0px auto 15px;
+}
+
+footer .logo h2 {
+    font-size: 32px;
+}
+
+footer p {
+    width: 770px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 0px auto 32px;
+}
+
+footer .icons {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+footer hr {
+    margin-bottom: 50px;
+}
+
+footer p:last-child {
+    padding-bottom: 100px;
+    margin-bottom: 0px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+}
+
 
 /* styles for small devices */
 @media screen and (max-width: 600px) {
@@ -561,10 +608,11 @@ hr {
         font-size: 14px;
     }
 
-    .newsletter{
+    .newsletter {
         flex-direction: column;
     }
-    .newsletter .subscribe_box{
+
+    .newsletter .subscribe_box {
         width: 100%;
         height: 420px;
     }
@@ -582,7 +630,7 @@ hr {
         bottom: 100px;
         left: 150px;
     }
-    
+
     .newsletter .img_box .discount h2 {
         font-size: 22px;
     }
