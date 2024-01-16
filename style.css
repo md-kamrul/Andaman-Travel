@@ -44,6 +44,10 @@ nav {
     align-items: center;
 }
 
+.nav_small{
+    display: none;
+}
+
 .logo {
     display: flex;
     gap: 5px;
@@ -579,7 +583,12 @@ footer p:last-child {
     nav {
         width: 80%;
         margin: 50px auto;
-        flex-direction: column;
+        /* flex-direction: column; */
+    }
+
+    .nav_small{
+        display: inline-block;
+        cursor: pointer;
     }
 
     .navbar{
