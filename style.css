@@ -44,7 +44,7 @@ nav {
     align-items: center;
 }
 
-.nav_small{
+.nav_small {
     display: none;
 }
 
@@ -210,7 +210,7 @@ header .hero_section {
     text-align: center;
     font-size: 28px;
     font-weight: 800;
-    position:relative;
+    position: relative;
     top: 50%;
 }
 
@@ -280,7 +280,7 @@ header .hero_section {
 .destination_choice .destination_img .bandorban {
     width: 585px;
     height: 242px;
-    background: linear-gradient(0deg, #13131833, #13131833),url("./Images/bandarban.png");
+    background: linear-gradient(0deg, #13131833, #13131833), url("./Images/bandarban.png");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -379,11 +379,11 @@ header .hero_section {
     text-align: center;
 }
 
-.testimonial .testimonial_card{
+.testimonial .testimonial_card {
     display: grid;
-    grid-template-areas: 
-    "card_1 . card_2"
-    ".    card_3 card_3"
+    grid-template-areas:
+        "card_1 . card_2"
+        ".    card_3 card_3"
     ;
 }
 
@@ -393,48 +393,48 @@ header .hero_section {
     margin-bottom: 10px;
 }
 
-.testimonial h2 + p {
+.testimonial h2+p {
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 50px;
 }
 
-.testimonial .review_card{
+.testimonial .review_card {
     width: 100%;
     margin: 10px auto 10px;
 }
 
-.testimonial .review_card img{
+.testimonial .review_card img {
     width: 40%;
     border-radius: 10px;
 }
 
-.testimonial .customer_name{
+.testimonial .customer_name {
     font-size: 18px;
 }
 
-.testimonial .customer_address{
+.testimonial .customer_address {
     font-size: 16px;
 }
 
-.testimonial .customer_review{
+.testimonial .customer_review {
     font-size: 21px;
 }
 
-.card_1{
+.card_1 {
     grid-area: card_1;
 }
 
-.card_2{
+.card_2 {
     grid-area: card_2;
 }
 
-.card_3{
+.card_3 {
     grid-area: card_3;
     display: flex;
 }
 
-.card_3 .customer_review{
+.card_3 .customer_review {
     width: 1500%;
 }
 
@@ -586,12 +586,12 @@ footer p:last-child {
         /* flex-direction: column; */
     }
 
-    .nav_small{
+    .nav_small {
         display: inline-block;
         cursor: pointer;
     }
 
-    .navbar{
+    .navbar {
         display: none;
     }
 
@@ -684,14 +684,14 @@ footer p:last-child {
     .destination_choice .destination_img {
         display: grid;
         gap: 24px;
-        grid-template-areas: 
-        "maldives"
-        "indonesia"
-        "srilanka"
-        "north"
-        "kashmir"
-        "bangladesh"
-        "bandorban"
+        grid-template-areas:
+            "maldives"
+            "indonesia"
+            "srilanka"
+            "north"
+            "kashmir"
+            "bangladesh"
+            "bandorban"
         ;
     }
 
@@ -706,15 +706,15 @@ footer p:last-child {
         height: 282px;
     }
 
-    .destination_choice .destination_img .maldives{
+    .destination_choice .destination_img .maldives {
         grid-area: maldives;
     }
 
-    .destination_choice .destination_img .maldives p{
+    .destination_choice .destination_img .maldives p {
         bottom: 50%;
     }
 
-    .destination_choice .destination_img .indonesia{
+    .destination_choice .destination_img .indonesia {
         grid-area: indonesia;
     }
 
@@ -734,7 +734,7 @@ footer p:last-child {
         grid-area: bangladesh;
     }
 
-    .destination_choice .destination_img .bandorban{
+    .destination_choice .destination_img .bandorban {
         grid-area: bandorban;
     }
 
@@ -772,19 +772,19 @@ footer p:last-child {
         font-size: 14px;
     }
 
-    .testimonial .testimonial_card{
-        grid-template-areas: 
-        "card_1"
-        "card_2"
-        "card_3"
+    .testimonial .testimonial_card {
+        grid-template-areas:
+            "card_1"
+            "card_2"
+            "card_3"
         ;
     }
 
-    .card_3{
+    .card_3 {
         flex-direction: column;
     }
 
-    .card_3 .customer_review{
+    .card_3 .customer_review {
         width: 100%;
     }
 
@@ -792,19 +792,19 @@ footer p:last-child {
         font-size: 20px;
     }
 
-    .testimonial h2 + p {
+    .testimonial h2+p {
         font-size: 14px;
     }
 
-    .testimonial .customer_name{
+    .testimonial .customer_name {
         font-size: 16px;
     }
 
-    .testimonial .customer_address{
+    .testimonial .customer_address {
         font-size: 14px;
     }
 
-    .testimonial .customer_review{
+    .testimonial .customer_review {
         font-size: 19px;
     }
 
