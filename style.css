@@ -813,13 +813,13 @@ footer p:last-child {
     }
 
     .newsletter .img_box .discount {
-        width: 215px;
+        width: 50%;
         height: 55px;
         transform: rotate(-19.628deg);
         font-size: 16px;
         padding-top: 10px;
-        bottom: 25%;
-        left: 40%;
+        bottom: 24%;
+        left: 48%;
     }
 
     .newsletter .img_box .discount h2 {
